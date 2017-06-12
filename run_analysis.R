@@ -61,7 +61,6 @@ names(traindata) <- c('subject', 'activity', c(feature))
 data <- rbind(testdata,traindata)
 
 ## ACTIVITY 2: EXTRACTS ONLY MEAN AND STANDARD DEVIATION FOR EACH MEASUREMENT
-
 names <- names(data)
 meansd <- grep("mean()|std()",names)
 datameansd <- data[,c(1,2,c(meansd))]
