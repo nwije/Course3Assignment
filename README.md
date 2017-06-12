@@ -1,13 +1,13 @@
-
+-------
 ## Readme
 
-** _Title_: Readme for tidy.data.txt - Week 4 Assignment **
+##### _Title_: Readme for tidy.data.txt - Week 4 Assignment
 
-** _Author_: Nilmini W **
+##### _Author_: Nilmini W
 
-** _Date_: 12 June 2017 **
+#### _Date_: 12 June 2017
 
-
+-------
 
 This repository contains the following using the smartphones dataset :
 * A tidy data file: **tidydata.txt**
