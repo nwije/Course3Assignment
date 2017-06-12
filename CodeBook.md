@@ -76,4 +76,4 @@ The subject variable gives the subject id (serial number from 1-30)
 The activity variable gives the 6 types of activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LYING
 The remaining 58 variables give the mean of the mean and standard deviation of the various feature measurements for that subject and activity.
 The features are various combinations of time and frequency of body acceleration, gravity acceleration, and body gyration; and jerk and maginitude 
-__(example variable name: time_BodyAccelerationMagnitude_mean)__
+_(example variable name: time_BodyAccelerationMagnitude_mean)_
