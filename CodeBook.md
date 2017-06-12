@@ -1,8 +1,8 @@
 ------
 # Codebook 
-##### title: Codebook for tidy.data.txt - Week 4 Assignment
-##### author: Nilmini W
-##### date: 12 June 2017
+##### _Title_: Codebook for tidy.data.txt - Week 4 Assignment
+##### _Author_: Nilmini W
+##### _Date_: 12 June 2017
 -------
 
 ## Project Description
