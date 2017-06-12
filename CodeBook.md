@@ -1,14 +1,14 @@
--------
-title: Codebook for tidy.data.txt - Week 4 Assignment
-author: Nilmini W
-date: 12 June 2017
+------
+#Codebook 
+###title: Codebook for tidy.data.txt - Week 4 Assignment
+###author: Nilmini W
+###date: 12 June 2017
 -------
 
 ## Project Description
 Data on activities of 30 volunteers was collected from Samsung Galaxy S II devices. 
 
 ##Study design and data processing
-
 ###Collection of the raw data
 Data was collected on 30 people aged 19-48. Each participant performed 6 activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LYING and data from the Samsung Galaxy S II device on 3-axial linear acceleration and 3-axial angular velocity were captured.
 
@@ -33,10 +33,10 @@ Further information on the data can be obtained from http://archive.ics.uci.edu/
 9. Activity 1: merge the training and test data using rbind
 
 10. Activity 2: extract the mean and standard deviation data.
-10.1 Create a name vector from the output of 9.
-10.2 Using grep, create a vector locating all instances of mean() and sd()
-10.3 Subset the dataframe from 9, using the vector from 10.2, and making sure to include the "subject" and "activity" variables
-10.4 As 10.2 will also identify the meanFreq() variables, create another name vector from the output of 10.3, use grep to create a vector locating all instances of meanFreq, and subset the datafram from 10.3 using this vector
++10.1 Create a name vector from the output of 9.
++10.2 Using grep, create a vector locating all instances of mean() and sd()
++10.3 Subset the dataframe from 9, using the vector from 10.2, and making sure to include the "subject" and "activity" variables
++10.4 As 10.2 will also identify the meanFreq() variables, create another name vector from the output of 10.3, use grep to create a vector locating all instances of meanFreq, and subset the datafram from 10.3 using this vector
 
 11. Activity 3: Use descriptive activity labels
 Replace the activity variable as a factor variable using the activity_labels created in 6
@@ -57,7 +57,6 @@ Apply this new vector to the names of the dataframe output of 11.
 13. Create a tidy dataset which contains the means for each of the features variables, by subject and activity.
 Use aggregate: subset the features columns, and use subject and activity in the list to aggregate by.
 Use write.table to create a .txt document as the output.
-
 
 ##Description of the variables in the tidydata.txt file
 The final tidy dataset has 180 observations and 60 variables.
