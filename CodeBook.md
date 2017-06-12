@@ -42,9 +42,9 @@ Further information on the data can be obtained from http://archive.ics.uci.edu/
 
 10. Activity 2: extract the mean and standard deviation data.
 
-  10.1 Create a name vector from the output of 9.
++ 10.1 Create a name vector from the output of 9.
 
-  10.2 Using grep, create a vector locating all instances of mean() and sd()
++ 10.2 Using grep, create a vector locating all instances of mean() and sd()
 
 + 10.3 Subset the dataframe from 9, using the vector from 10.2, and making sure to include the "subject" and "activity" variables
 
@@ -53,7 +53,8 @@ Further information on the data can be obtained from http://archive.ics.uci.edu/
 11. Activity 3: Use descriptive activity labels
 Replace the activity variable as a factor variable using the activity_labels created in 6
 
-12. Activity 4: Appropriately label data using descriptive variable names
+12. Activity 4: Appropriately label data using descriptive variable names.
+
 Extract a vector containing the names of the ouput from 11.
 Perform the following transformations on the vector to make the variable names more descriptive:
 + change t to time
