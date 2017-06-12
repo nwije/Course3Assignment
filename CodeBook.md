@@ -22,11 +22,11 @@ Further information on the data can be obtained from http://archive.ics.uci.edu/
 
 ### Guide to create the tidy data file
 
-1.Set the working directory
+1. Set the working directory
 
-2.Download the data (zipped) from the following site: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+2. Download the data (zipped) from the following site: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-3.Unzip the data
+3. Unzip the data
 
 4. Explore the file structure: test data is in the "test" folder, training data is in the "train" folder. In each of these folders, there is a subject_ file which gives the subject id, X_ file which gives the data for each feature measured (i.e. movement data), and the y_ file which gives the activity (as a number). In the main directory text files are available which give labels to the activities (activity_labels), and labels to the features (features).
 
@@ -42,13 +42,13 @@ Further information on the data can be obtained from http://archive.ics.uci.edu/
 
 10. Activity 2: extract the mean and standard deviation data.
 
-+10.1 Create a name vector from the output of 9.
++ 10.1 Create a name vector from the output of 9.
 
-+10.2 Using grep, create a vector locating all instances of mean() and sd()
++ 10.2 Using grep, create a vector locating all instances of mean() and sd()
 
-+10.3 Subset the dataframe from 9, using the vector from 10.2, and making sure to include the "subject" and "activity" variables
++ 10.3 Subset the dataframe from 9, using the vector from 10.2, and making sure to include the "subject" and "activity" variables
 
-+10.4 As 10.2 will also identify the meanFreq() variables, create another name vector from the output of 10.3, use grep to create a vector locating all instances of meanFreq, and subset the datafram from 10.3 using this vector
++ 10.4 As 10.2 will also identify the meanFreq() variables, create another name vector from the output of 10.3, use grep to create a vector locating all instances of meanFreq, and subset the datafram from 10.3 using this vector
 
 11. Activity 3: Use descriptive activity labels
 Replace the activity variable as a factor variable using the activity_labels created in 6
@@ -75,4 +75,5 @@ The final tidy dataset has 180 observations and 60 variables.
 The subject variable gives the subject id (serial number from 1-30)
 The activity variable gives the 6 types of activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LYING
 The remaining 58 variables give the mean of the mean and standard deviation of the various feature measurements for that subject and activity.
-The features are various combinations of time and frequency of body acceleration, gravity acceleration, and body gyration; and jerk and maginitude (example variable name: time_BodyAccelerationMagnitude_mean) 
+The features are various combinations of time and frequency of body acceleration, gravity acceleration, and body gyration; and jerk and maginitude 
+__(example variable name: time_BodyAccelerationMagnitude_mean)__
