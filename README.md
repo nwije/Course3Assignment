@@ -1,7 +1,10 @@
 
 ## Readme
+
 ** _Title_: Readme for tidy.data.txt - Week 4 Assignment **
+
 ** _Author_: Nilmini W **
+
 ** _Date_: 12 June 2017 **
 
 
